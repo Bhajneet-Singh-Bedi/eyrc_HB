@@ -1,0 +1,82 @@
+[0.260s] Invoking command in '/home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/bhajneet/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake /home/bhajneet/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_bot -DCMAKE_INSTALL_PREFIX=/home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot
+[0.567s] -- The C compiler identification is GNU 11.4.0
+[0.567s] -- The CXX compiler identification is GNU 11.4.0
+[0.568s] -- Detecting C compiler ABI info
+[0.569s] -- Detecting C compiler ABI info - done
+[0.569s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.570s] -- Detecting C compile features
+[0.571s] -- Detecting C compile features - done
+[0.571s] -- Detecting CXX compiler ABI info
+[0.571s] -- Detecting CXX compiler ABI info - done
+[0.572s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.572s] -- Detecting CXX compile features
+[0.572s] -- Detecting CXX compile features - done
+[0.572s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.792s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.129s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.206s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.215s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.229s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.253s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.289s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.412s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.416s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.532s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.572s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.642s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.660s] -- Looking for pthread.h
+[1.740s] -- Looking for pthread.h - found
+[1.740s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.818s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.820s] -- Found Threads: TRUE  
+[2.052s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[2.054s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[2.095s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[2.097s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.187s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.188s] -- Added test 'lint_cmake' to check CMake code style
+[2.189s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.190s] -- Added test 'xmllint' to check XML markup files
+[2.191s] -- Configuring done
+[2.195s] -- Generating done
+[2.197s] -- Build files have been written to: /home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_bot
+[2.209s] Invoked command in '/home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/bhajneet/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake /home/bhajneet/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_bot -DCMAKE_INSTALL_PREFIX=/home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot
+[2.209s] Invoking command in '/home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/bhajneet/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --build /home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_bot -- -j8 -l8
+[2.249s] Invoked command in '/home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/bhajneet/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --build /home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_bot -- -j8 -l8
+[2.282s] Invoking command in '/home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/bhajneet/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --install /home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_bot
+[2.289s] -- Install configuration: ""
+[2.290s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//launch
+[2.290s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//launch/Spawn_bot.launch.py
+[2.290s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//launch/multi_bot_spawn.launch.py
+[2.290s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes
+[2.290s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_3.jpg.001.jpg
+[2.290s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_2.dae
+[2.291s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_2.jpg
+[2.292s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/wheel.stl
+[2.296s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_1.jpg
+[2.297s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_3.jpg
+[2.297s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_2.jpg.001.jpg
+[2.297s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_3.dae
+[2.298s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_1.jpg.001.jpg
+[2.298s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//meshes/bot_1.dae
+[2.300s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//urdf
+[2.300s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//urdf/hb_bot_3.urdf.xacro
+[2.300s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//urdf/materials.xacro
+[2.300s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//urdf/hb_bot_2.urdf.xacro
+[2.300s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot//urdf/hb_bot_1.urdf.xacro
+[2.301s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/ament_index/resource_index/package_run_dependencies/hb_bot
+[2.301s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/ament_index/resource_index/parent_prefix_path/hb_bot
+[2.301s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/environment/ament_prefix_path.sh
+[2.301s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/environment/ament_prefix_path.dsv
+[2.301s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/environment/path.sh
+[2.301s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/environment/path.dsv
+[2.301s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/local_setup.bash
+[2.301s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/local_setup.sh
+[2.301s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/local_setup.zsh
+[2.302s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/local_setup.dsv
+[2.302s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/package.dsv
+[2.302s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/ament_index/resource_index/packages/hb_bot
+[2.302s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/cmake/hb_botConfig.cmake
+[2.302s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/cmake/hb_botConfig-version.cmake
+[2.302s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_bot/share/hb_bot/package.xml
+[2.304s] Invoked command in '/home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/bhajneet/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --install /home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_bot

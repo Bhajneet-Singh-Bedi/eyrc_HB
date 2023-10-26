@@ -1,0 +1,22 @@
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages/hb_task_1b/__init__.py
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages/hb_task_1b/__pycache__/__init__.cpython-310.pyc
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/share/ament_index/resource_index/packages/hb_task_1b
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/share/hb_task_1b/package.xml
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/share/hb_task_1b/launch/gazebo.launch.py
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/share/hb_task_1b/launch/hb_task1b.launch.py
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/share/hb_task_1b/urdf/materials.xacro
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/share/hb_task_1b/urdf/hb_bot.urdf.xacro
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/share/hb_task_1b/meshes/base.dae
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/share/hb_task_1b/meshes/wheel.stl
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/share/hb_task_1b/meshes/17eyantra_logo_large e.png
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/share/hb_task_1b/config
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/share/hb_task_1b/worlds/gazebo.world
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages/hb_task_1b-0.0.0-py3.10.egg-info/entry_points.txt
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages/hb_task_1b-0.0.0-py3.10.egg-info/zip-safe
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages/hb_task_1b-0.0.0-py3.10.egg-info/top_level.txt
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages/hb_task_1b-0.0.0-py3.10.egg-info/PKG-INFO
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages/hb_task_1b-0.0.0-py3.10.egg-info/dependency_links.txt
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages/hb_task_1b-0.0.0-py3.10.egg-info/requires.txt
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/python3.10/site-packages/hb_task_1b-0.0.0-py3.10.egg-info/SOURCES.txt
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/hb_task_1b/controller
+/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b/lib/hb_task_1b/service_node

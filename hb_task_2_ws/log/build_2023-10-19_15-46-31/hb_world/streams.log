@@ -1,0 +1,86 @@
+[0.454s] Invoking command in '/home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/bhajneet/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake /home/bhajneet/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_world -DCMAKE_INSTALL_PREFIX=/home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world
+[0.506s] -- The C compiler identification is GNU 11.4.0
+[0.558s] -- The CXX compiler identification is GNU 11.4.0
+[0.564s] -- Detecting C compiler ABI info
+[0.625s] -- Detecting C compiler ABI info - done
+[0.633s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.633s] -- Detecting C compile features
+[0.634s] -- Detecting C compile features - done
+[0.637s] -- Detecting CXX compiler ABI info
+[0.723s] -- Detecting CXX compiler ABI info - done
+[0.733s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.734s] -- Detecting CXX compile features
+[0.734s] -- Detecting CXX compile features - done
+[0.738s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.935s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.021s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.057s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.061s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.069s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.082s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.101s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.171s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.174s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.277s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.314s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.356s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.365s] -- Looking for pthread.h
+[1.428s] -- Looking for pthread.h - found
+[1.428s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.495s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.496s] -- Found Threads: TRUE  
+[1.663s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[1.664s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.699s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[1.701s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.780s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.781s] -- Added test 'lint_cmake' to check CMake code style
+[1.781s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.783s] -- Added test 'xmllint' to check XML markup files
+[1.784s] -- Configuring done
+[1.789s] -- Generating done
+[1.789s] -- Build files have been written to: /home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_world
+[1.809s] Invoked command in '/home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/bhajneet/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake /home/bhajneet/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_world -DCMAKE_INSTALL_PREFIX=/home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world
+[1.810s] Invoking command in '/home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/bhajneet/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --build /home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_world -- -j8 -l8
+[1.882s] Invoked command in '/home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/bhajneet/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --build /home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_world -- -j8 -l8
+[1.905s] Invoking command in '/home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/bhajneet/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --install /home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_world
+[1.911s] -- Install configuration: ""
+[1.911s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//launch
+[1.911s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//launch/world.launch.py
+[1.912s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//worlds
+[1.912s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//worlds/gazebo.world
+[1.912s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models
+[1.912s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena
+[1.912s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/model.sdf
+[1.912s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/model.config
+[1.912s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/meshes
+[1.912s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/meshes/arena.dae
+[1.912s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/meshes/arena.jpg
+[1.913s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface
+[1.913s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/model.sdf
+[1.913s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/model.config
+[1.913s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes
+[1.913s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes/geoglyph.jpg
+[1.914s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes/ground_surface.dae
+[1.914s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera
+[1.914s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/model.sdf
+[1.914s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/model.config
+[1.914s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/meshes
+[1.915s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/meshes/camera.dae
+[1.915s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/meshes/17eyantra_logo_large e.png
+[1.916s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/ament_index/resource_index/package_run_dependencies/hb_world
+[1.916s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/ament_index/resource_index/parent_prefix_path/hb_world
+[1.917s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/ament_prefix_path.sh
+[1.917s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/ament_prefix_path.dsv
+[1.917s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/path.sh
+[1.917s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/path.dsv
+[1.917s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.bash
+[1.917s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.sh
+[1.917s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.zsh
+[1.917s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.dsv
+[1.917s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/package.dsv
+[1.917s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/ament_index/resource_index/packages/hb_world
+[1.918s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/cmake/hb_worldConfig.cmake
+[1.918s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/cmake/hb_worldConfig-version.cmake
+[1.918s] -- Installing: /home/bhajneet/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/package.xml
+[1.920s] Invoked command in '/home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/eyrc_hb/hb_task1b_ws/install/hb_task_1b:/home/bhajneet/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble /usr/bin/cmake --install /home/bhajneet/eyrc_hb/hb_task_2_ws/build/hb_world

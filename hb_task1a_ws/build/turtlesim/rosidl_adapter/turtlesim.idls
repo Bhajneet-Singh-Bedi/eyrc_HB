@@ -1,0 +1,8 @@
+/home/bhajneet/eyrc_hb/hb_task1a_ws/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/home/bhajneet/eyrc_hb/hb_task1a_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/home/bhajneet/eyrc_hb/hb_task1a_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/home/bhajneet/eyrc_hb/hb_task1a_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/home/bhajneet/eyrc_hb/hb_task1a_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/home/bhajneet/eyrc_hb/hb_task1a_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/home/bhajneet/eyrc_hb/hb_task1a_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/home/bhajneet/eyrc_hb/hb_task1a_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl
