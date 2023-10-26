@@ -164,12 +164,12 @@ class ArUcoDetector(Node):
             self.hb_y=0
         
         
-        # print("Coordinates are: ",self.hb_x*self.camera_resolution, self.hb_y*self.camera_resolution)
+        print("Coordinates are: ",self.hb_x*self.camera_resolution, self.hb_y*self.camera_resolution)
 
 
 
-        # cv.imshow("The Image Dude", image)
-        # key = cv.waitKey(1)
+        cv.imshow("The Image Dude", image)
+        key = cv.waitKey(1)
 
 
 def main(args=None):
