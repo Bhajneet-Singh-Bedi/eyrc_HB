@@ -24,7 +24,7 @@ from sensor_msgs.msg import Image
 import cv2 as cv
 import numpy as np
 from cv_bridge import CvBridge, CvBridgeError
-
+import math
 # Import the required modules
 ##############################################################
 class ArUcoDetector(Node):
@@ -58,11 +58,15 @@ class ArUcoDetector(Node):
             self.get_logger().error(e, throttle_duration_sec=1)
 
         image = cv_image
+        
+        Detected_ArUco_markers = {}
 
         arucoDict = cv.aruco.getPredefinedDictionary(cv.aruco.DICT_4X4_50)
         arucoParams = cv.aruco.DetectorParameters()
         detectors = cv.aruco.ArucoDetector(arucoDict,arucoParams)
         corners, ids, rejected = detectors.detectMarkers(cv_image)
+        crn=corners
+
         # cv.imshow("The image", cv_image)
         # print(corners)
         # aruco.drawDetectedMarkers(cv_image,corners)
@@ -77,6 +81,9 @@ class ArUcoDetector(Node):
 
         if corners:
             for ids, corners in zip(ids, corners):
+                if ids == 1:
+                    Detected_ArUco_markers[str(ids)] = corners 
+
                 corners = corners.reshape((4, 2))
                 (topLeft, topRight, bottomRight, bottomLeft) = corners
 
@@ -92,6 +99,44 @@ class ArUcoDetector(Node):
                 # print(ids, corners)
                 #print('YEAHHHHHHHHHHHHHHH')
             self.coord(self.coordinate_dict, image)
+
+            
+        ArUco_marker_angles = {}
+        # print(crn)
+        ## enter your code here ##
+        for ids in Detected_ArUco_markers:
+            for corn in Detected_ArUco_markers[ids]:
+                topListx = []
+                topListy = []
+                for i in range(4):
+
+                    xcenter = int((corn[0][0]+corn[2][0])/2)							#determining x coordinate of center by midpoint theorem
+                    ycenter = int((corn[0][1]+corn[2][1])/2)							#determining y coordinate of center by midpoint theorem
+
+                    topListx.append(corn[i][0])					#making a list of corners x axis
+                    topListy.append(corn[i][1])
+                    #print topList
+                    #print "works"
+
+                xtop1 = max(topListx)								#top right
+                ytop2 = min(topListy)								#top left
+
+                for i in range(4):
+                    if corn[i][0] == xtop1: 	
+                        ytop1 = corn[i][1]
+                        
+                    if corn[i][1] == ytop2:
+                        xtop2 = corn[i][0]
+
+                lcenterx = int((xtop2+xtop1)/2)											#determining y coordinate of an edge to draw line
+                lcentery = int((ytop2+ytop1)/2)											#determining x coordinate of an edge to draw line
+                if ycenter - lcentery==0:
+                    angle = 0
+                else:
+                    slope = -1*( xcenter - lcenterx )/float(( ycenter - lcentery ))
+                    angle = 90 - int(57.3*math.atan(slope))
+                ArUco_marker_angles[ids] = angle
+                print(ArUco_marker_angles)
         """
         topLeft, topRight, bottomRight, bottomLeft
 
