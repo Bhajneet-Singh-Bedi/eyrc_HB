@@ -25,6 +25,8 @@ import cv2 as cv
 import numpy as np
 from cv_bridge import CvBridge, CvBridgeError
 import math
+from std_msgs.msg import Float64MultiArray, String
+import yaml
 # Import the required modules
 ##############################################################
 class ArUcoDetector(Node):
@@ -33,7 +35,7 @@ class ArUcoDetector(Node):
         super().__init__('ar_uco_detector')
         self.get_logger().info('Kyaaa Haalllll hai....')
         # Subscribe the topic /camera/image_raw
-
+        self.publisher = self.create_publisher(String, '/detected_aruco', 10)
         self.subscriber=self.create_subscription(Image, '/camera/image_raw',self.image_callback,10)
         self.hb_x=0.0
         self.hb_y=0.0
@@ -210,8 +212,28 @@ class ArUcoDetector(Node):
         
         
         print("Coordinates are: ",self.hb_x*self.camera_resolution, self.hb_y*self.camera_resolution)
+        data = {
+            'pose': {
+                'position': {
+                    'x': self.hb_x*self.camera_resolution,
+                    'y': self.hb_y*self.camera_resolution
+                }
+            }
+        }
 
+        # yaml_file_path = 'output.yaml'
 
+        # Write the data to the YAML file
+        # with open(yaml_file_path, 'w') as yaml_file:
+            # yaml.dump(data, yaml_file, default_flow_style=False)
+        
+        message = String()
+
+        yaml_data = yaml.dump(data)
+        # with open(yaml_file_path, 'r') as yaml_file:
+            # message.data = yaml_file.read()
+        message.data = yaml_data
+        self.publisher.publish(message)
 
         cv.imshow("The Image Dude", image)
         key = cv.waitKey(1)
