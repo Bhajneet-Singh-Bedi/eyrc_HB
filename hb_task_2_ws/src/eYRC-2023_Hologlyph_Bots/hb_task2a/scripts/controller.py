@@ -30,7 +30,8 @@
 
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import Twist
+from geometry_msgs.msg import Twist, String
+from geometry_msgs.msg import Wrench
 from nav_msgs.msg import Odometry
 import time
 import math
@@ -53,7 +54,9 @@ from my_robot_interfaces.srv import NextGoal
 class HBController(Node):
     def __init__(self):
         super().__init__('hb_controller')
-        
+        self.vel = Wrench()
+        self.vel.force.y=0.0
+
         # Initialze Publisher and Subscriber
         # NOTE: You are strictly NOT-ALLOWED to use "cmd_vel" or "odom" topics in this task
 	    #	Use the below given topics to generate motion for the robot.
@@ -61,6 +64,14 @@ class HBController(Node):
 	    #   /hb_bot_1/right_wheel_force,
 	    #   /hb_bot_1/left_wheel_force
 
+        # Subscriber for position of robot subscribing to /detected_aruco topic.
+        #
+        self.posSub = self.create_subscription(String, "/detected_aruco", self.posCb, 10) 
+
+        # Publisher for force of wheels.
+        self.forcePubLeft = self.create_publisher(Twist, "/hb_bot_1/left_wheel_force", 10)
+        self.forcePubRight = self.create_publisher(Twist, "/hb_bot_1/right_wheel_force", 10)
+        self.forcePubRear = self.create_publisher(Twist, "/hb_bot_1/rear_wheel_force", 10)
 
 
 
@@ -119,6 +130,7 @@ def main(args=None):
                 theta_goal  = response.theta_goal
                 hb_controller.flag = response.end_of_list
                 ####################################################
+
                 
                 # Calculate Error from feedback
 
